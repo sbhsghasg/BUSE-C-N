@@ -1,0 +1,52 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Konteyner */
+.container {
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+/* Başlık */
+h1 {
+    font-size: 3em;
+    color: #fffa65;
+}
+
+/* Buse'nin Adı */
+.buse {
+    color: #ff69b4;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Buton */
+button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9900;
+    color: white;
+}
